@@ -8,7 +8,7 @@ replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation => ../../..
 
 require (
 	github.com/antgan-0226/opentelemetry-go-auto-instrumentation v0.5.0
-	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.5.0
+	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-20241120080835-df6534803198
 	github.com/valyala/fasthttp v1.56.0
 	go.opentelemetry.io/otel/sdk v1.31.0
 	google.golang.org/grpc v1.67.1
