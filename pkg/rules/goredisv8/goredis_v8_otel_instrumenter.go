@@ -15,8 +15,8 @@
 package goredisv8
 
 import (
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/inst-api-semconv/instrumenter/db"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/inst-api/instrumenter"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/inst-api-semconv/instrumenter/db"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/inst-api/instrumenter"
 	"github.com/go-redis/redis/v8"
 )
 

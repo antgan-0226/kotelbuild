@@ -21,7 +21,7 @@ It will be installed in `/usr/local/bin/otelbuild` by default.
 ### Precompiled Binary
 
 Please download the latest precompiled release version from
-the [Release](https://github.com/alibaba/opentelemetry-go-auto-instrumentation/releases)
+the [Release](https://github.com/antgan-0226/opentelemetry-go-auto-instrumentation/releases)
 page.
 
 ### Build From Source
@@ -64,7 +64,7 @@ Also there are several [**documents**](./docs) that you may find useful for eith
 > [!NOTE]
 > If you find any compilation failures while `go build` works, it's likely a bug.
 > Please feel free to file a bug
-> at [GitHub Issues](https://github.com/alibaba/opentelemetry-go-auto-instrumentation/issues)
+> at [GitHub Issues](https://github.com/antgan-0226/opentelemetry-go-auto-instrumentation/issues)
 > to help us enhance this project.
 
 # Supported Libraries

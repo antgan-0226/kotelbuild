@@ -17,7 +17,7 @@ package http
 import (
 	"context"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/inst-api/instrumenter"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/inst-api/instrumenter"
 	"go.opentelemetry.io/otel/attribute"
 )
 

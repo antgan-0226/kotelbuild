@@ -17,7 +17,7 @@ package gorm
 import (
 	"context"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 	driver "github.com/go-sql-driver/mysql"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

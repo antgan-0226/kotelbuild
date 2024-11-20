@@ -18,7 +18,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 	kt "github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/transport"

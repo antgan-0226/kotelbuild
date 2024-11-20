@@ -17,7 +17,7 @@ package nethttp5
 import (
 	"net/http"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 // only recv arg

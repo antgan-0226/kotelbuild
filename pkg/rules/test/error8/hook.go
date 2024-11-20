@@ -15,7 +15,7 @@
 package error8
 
 import (
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 func onExitP21(call api.CallContext) {}

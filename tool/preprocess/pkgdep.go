@@ -18,13 +18,13 @@ import (
 	"log"
 	"strings"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/resource"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/shared"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/util"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/resource"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/util"
 )
 
 const (
-	PkgDep         = "github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg"
+	PkgDep         = "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg"
 	OtelPkgDepsDir = "otel_pkgdep"
 )
 

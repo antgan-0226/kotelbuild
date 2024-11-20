@@ -21,7 +21,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 var netHttpServerInstrumenter = BuildNetHttpServerOtelInstrumenter()

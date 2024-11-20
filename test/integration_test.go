@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	_ "github.com/alibaba/opentelemetry-go-auto-instrumentation/test/version"
+	_ "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/version"
 )
 
 const test_plugin_name_key = "TEST_PLUGIN_NAME"

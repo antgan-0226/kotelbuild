@@ -41,7 +41,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/test/verifier"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier"
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"grpc/client"
 	"io"

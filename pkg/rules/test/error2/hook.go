@@ -15,7 +15,7 @@
 package error2
 
 import (
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 func onEnterTestSkip(call api.CallContext) {

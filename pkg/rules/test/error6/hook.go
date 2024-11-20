@@ -15,7 +15,7 @@
 package error6
 
 import (
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 func onEnterP11(call api.CallContext) {}

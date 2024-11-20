@@ -17,7 +17,7 @@ package fmt1
 import (
 	_ "fmt"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 func OnExitPrintf1(call api.CallContext, n int, err error) {

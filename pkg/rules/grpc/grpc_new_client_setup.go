@@ -17,7 +17,7 @@ package grpc
 import (
 	"context"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/stats"
 )

@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/shared"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/util"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/util"
 )
 
 func listFiles(fs embed.FS, dir string) ([]string, error) {

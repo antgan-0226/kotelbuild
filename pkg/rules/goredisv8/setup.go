@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/inst-api/instrumenter"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/inst-api/instrumenter"
 	redis "github.com/go-redis/redis/v8"
 	"go.opentelemetry.io/otel/trace"
 )

@@ -16,7 +16,7 @@ package main
 
 import (
 	"context"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/test/verifier"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier"
 	"github.com/gin-gonic/gin"
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"log"

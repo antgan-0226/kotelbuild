@@ -55,7 +55,7 @@ $ ./otelbuild -verbose -- -gcflags="-m" cmd/app # print verbose log
 
 > [!NOTE]
 > 如果过程中发现任何编译失败的情况，很可能是一个bug
-> 请在[GitHub Issues](https://github.com/alibaba/opentelemetry-go-auto-instrumentation/issues)
+> 请在[GitHub Issues](https://github.com/antgan-0226/opentelemetry-go-auto-instrumentation/issues)
 > 中提交 bug，帮助我们改进这个项目
 
 # 支持的库

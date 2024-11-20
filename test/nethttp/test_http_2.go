@@ -17,7 +17,7 @@ package main
 import (
 	"bytes"
 	"crypto/tls"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/test/verifier"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier"
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"golang.org/x/net/http2"
 	"log"

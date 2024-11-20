@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/util"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/util"
 )
 
 const (

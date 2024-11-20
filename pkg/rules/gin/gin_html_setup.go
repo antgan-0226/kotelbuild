@@ -15,7 +15,7 @@
 package gin
 
 import (
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 	"go.opentelemetry.io/otel/sdk/trace"
 
 	"github.com/gin-gonic/gin"

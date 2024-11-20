@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/resource"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/shared"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/util"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/resource"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/util"
 	"github.com/dave/dst"
 )
 
@@ -328,7 +328,9 @@ func (dp *DepProcessor) initRules(pkgName, target string) (err error) {
 		imports[OtelGetStackImportPath] = OtelGetStackAliasPkg
 	}
 	for k, v := range imports {
-		c += fmt.Sprintf("import %s %q\n", v, k)
+		s := fmt.Sprintf("import %s \"%s\"\n", v, k)
+		s = strings.ReplaceAll(s, "\\", "/")
+		c += s
 	}
 
 	// Assignments

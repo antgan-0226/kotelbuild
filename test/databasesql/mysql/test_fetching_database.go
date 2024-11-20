@@ -17,7 +17,7 @@ package main
 import (
 	"context"
 	"database/sql"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/test/verifier"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier"
 	_ "github.com/go-sql-driver/mysql"
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"os"

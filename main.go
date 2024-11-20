@@ -18,8 +18,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/shared"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
 )
 
 func main() {

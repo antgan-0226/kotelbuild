@@ -5,7 +5,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"os"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/test/verifier"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier"
 	"github.com/gomodule/redigo/redis"
 )
 

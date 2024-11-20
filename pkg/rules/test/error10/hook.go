@@ -15,7 +15,7 @@
 package error10
 
 import (
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 func onEnterP31(call api.CallContext, arg1 int, arg2 bool, arg3 float64) {}

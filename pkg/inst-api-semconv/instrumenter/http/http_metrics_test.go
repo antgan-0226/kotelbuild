@@ -16,7 +16,7 @@ package http
 
 import (
 	"context"
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/core/meter"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/core/meter"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/metric"
 	"go.opentelemetry.io/otel/sdk/metric/metricdata"

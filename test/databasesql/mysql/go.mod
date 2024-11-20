@@ -2,10 +2,10 @@ module databasesql/mysql
 
 go 1.22
 
-replace github.com/alibaba/opentelemetry-go-auto-instrumentation/test/verifier => ../../../../opentelemetry-go-auto-instrumentation/test/verifier
+replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier => ../../../../opentelemetry-go-auto-instrumentation/test/verifier
 
 require (
-	github.com/alibaba/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-00010101000000-000000000000
+	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-00010101000000-000000000000
 	github.com/go-sql-driver/mysql v1.8.1
 	go.opentelemetry.io/otel/sdk v1.31.0
 )

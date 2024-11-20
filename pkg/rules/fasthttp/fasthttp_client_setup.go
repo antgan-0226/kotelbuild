@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 	"github.com/valyala/fasthttp"
 )
 

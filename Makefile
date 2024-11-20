@@ -37,7 +37,7 @@ else
 endif
 
 # General build options
-MOD_NAME := github.com/alibaba/opentelemetry-go-auto-instrumentation
+MOD_NAME := github.com/antgan-0226/opentelemetry-go-auto-instrumentation
 TOOL_REL_NAME := otelbuild
 
 VERSION := $(MAIN_VERSION)_$(COMMIT_ID)
@@ -89,4 +89,4 @@ clean:
 	go clean
 
 test:
-	go test -timeout 50m -v github.com/alibaba/opentelemetry-go-auto-instrumentation/test
+	go test -timeout 50m -v github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test

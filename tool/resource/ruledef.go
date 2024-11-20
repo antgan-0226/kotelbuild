@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/tool/shared"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
 )
 
 // -----------------------------------------------------------------------------

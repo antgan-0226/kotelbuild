@@ -17,7 +17,7 @@ package error2
 import (
 	erralias "errors"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 func onEnterErrorsNewAlias(call api.CallContext, text string) {

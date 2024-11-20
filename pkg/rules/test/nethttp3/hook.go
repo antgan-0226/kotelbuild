@@ -18,7 +18,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/alibaba/opentelemetry-go-auto-instrumentation/pkg/api"
+	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
 )
 
 // arg type has package prefix
