@@ -27,7 +27,7 @@ replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifi
 
 require (
 	// import this dependency to use verifier
-    github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-00010101000000-000000000000
+    github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.5.0
 	github.com/redis/go-redis/v9 v9.0.5
 	go.opentelemetry.io/otel v1.30.0
 	go.opentelemetry.io/otel/sdk v1.30.0

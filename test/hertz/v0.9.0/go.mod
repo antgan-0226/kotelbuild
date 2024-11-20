@@ -7,7 +7,7 @@ replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifi
 replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation => ../../../../opentelemetry-go-auto-instrumentation
 
 require (
-	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-00010101000000-000000000000
+	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.5.0
 	github.com/cloudwego/hertz v0.9.0
 )
 
