@@ -156,6 +156,14 @@ func (dp *DepProcessor) postProcess() {
 	if err != nil {
 		log.Fatalf("failed to restore: %v", err)
 	}
+
+	// if keep build dir, we will not remove the .otel-build directory
+	if !shared.GetConf().KeepBuildDir {
+		err = os.RemoveAll(shared.TempBuildDir)
+		if err != nil {
+			log.Fatalf("failed to remove working directory: %w", err)
+		}
+	}
 }
 
 func (dp *DepProcessor) backupFile(origin string) error {

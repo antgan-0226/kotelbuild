@@ -67,6 +67,9 @@ type BuildConfig struct {
 	// PrintVersion true means print version.
 	PrintVersion bool
 
+	// KeepBuildDir true means keep the .otel-build directory.
+	KeepBuildDir bool
+
 	disableDefaultRules bool
 }
 
@@ -226,6 +229,8 @@ func loadBuildConfig() (*BuildConfig, error) {
 			"Restore all instrumentations")
 		flag.BoolVar(&bc.PrintVersion, "version", false,
 			"Print version")
+		flag.BoolVar(&bc.KeepBuildDir, "keepbuilddir", false,
+			"Keep the .otel-build directory")
 		flag.StringVar(&bc.RuleJsonFiles, "rule", "",
 			"Rule file in json format. Multiple rules are separated by comma")
 		flag.Parse()
