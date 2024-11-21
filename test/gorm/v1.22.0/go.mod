@@ -5,7 +5,7 @@ go 1.22
 replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../../kotelbuild/test/verifier
 
 require (
-	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-00010101000000-000000000000
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241121101330-eac0897bad02
 	go.opentelemetry.io/otel/sdk v1.31.0
 	gorm.io/driver/mysql v1.1.3
 	gorm.io/gorm v1.22.0

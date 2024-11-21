@@ -6,7 +6,7 @@ replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../kotelbuild/t
 
 replace github.com/antgan-0226/kotelbuild => ../../../kotelbuild
 
-require github.com/antgan-0226/kotelbuild v0.5.0
+require github.com/antgan-0226/kotelbuild v0.5.4
 
 require (
 	github.com/go-logr/logr v1.4.2 // indirect

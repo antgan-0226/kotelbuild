@@ -7,7 +7,7 @@ replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../../kotelbuil
 replace github.com/antgan-0226/kotelbuild => ../../../../kotelbuild
 
 require (
-	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-00010101000000-000000000000
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241121101330-eac0897bad02
 	github.com/gorilla/mux v1.3.0
 	go.opentelemetry.io/otel/sdk v1.31.0
 )
