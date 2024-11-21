@@ -5,7 +5,7 @@ go 1.22
 replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../../kotelbuild/test/verifier
 
 require (
-	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241120084517-34540d547ff3
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-00010101000000-000000000000
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.31.0
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.31.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.31.0

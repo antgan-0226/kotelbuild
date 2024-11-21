@@ -8,7 +8,7 @@ replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../../kotelbuil
 
 require (
 	// import this dependency to use verifier
-	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241120084517-34540d547ff3
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-00010101000000-000000000000
 	go.opentelemetry.io/otel v1.31.0
 	go.opentelemetry.io/otel/sdk v1.31.0
 	github.com/go-redis/redis/v8 v8.11.0
