@@ -4,7 +4,7 @@ go 1.22
 
 replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../kotelbuild/test/verifier
 
-replace github.com/antgan-0226/kotelbuild => ../../../opentelemetry-go-auto-instrumentation
+replace github.com/antgan-0226/kotelbuild => ../../../kotelbuild
 
 require (
 	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241120080835-df6534803198
