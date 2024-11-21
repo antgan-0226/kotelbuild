@@ -2,12 +2,12 @@ module hertz/v0.9.0
 
 go 1.22
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier => ../../../../opentelemetry-go-auto-instrumentation/test/verifier
+replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../../kotelbuild/test/verifier
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation => ../../../../opentelemetry-go-auto-instrumentation
+replace github.com/antgan-0226/kotelbuild => ../../../../opentelemetry-go-auto-instrumentation
 
 require (
-	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-20241120080835-df6534803198
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241120080835-df6534803198
 	github.com/cloudwego/hertz v0.9.0
 )
 

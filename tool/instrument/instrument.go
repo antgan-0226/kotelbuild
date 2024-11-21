@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/resource"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/util"
+	"github.com/antgan-0226/kotelbuild/tool/resource"
+	"github.com/antgan-0226/kotelbuild/tool/shared"
+	"github.com/antgan-0226/kotelbuild/tool/util"
 	"github.com/dave/dst"
 )
 

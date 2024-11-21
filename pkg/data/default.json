@@ -20,7 +20,7 @@
     {
         "ImportPath": "runtime",
         "FileName": "runtime_linker.go",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/runtime"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/runtime"
     },
     {
         "ImportPath": "database/sql",
@@ -99,7 +99,7 @@
         "Function": "Open",
         "OnEnter": "beforeOpenInstrumentation",
         "OnExit": "afterOpenInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -107,7 +107,7 @@
         "ReceiverType": "*DB",
         "OnEnter": "beforePingContextInstrumentation",
         "OnExit": "afterPingContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -115,7 +115,7 @@
         "ReceiverType": "*DB",
         "OnEnter": "beforePrepareContextInstrumentation",
         "OnExit": "afterPrepareContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -123,7 +123,7 @@
         "ReceiverType": "*DB",
         "OnEnter": "beforeExecContextInstrumentation",
         "OnExit": "afterExecContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -131,7 +131,7 @@
         "ReceiverType": "*DB",
         "OnEnter": "beforeQueryContextInstrumentation",
         "OnExit": "afterQueryContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -139,7 +139,7 @@
         "ReceiverType": "*DB",
         "OnEnter": "beforeTxInstrumentation",
         "OnExit": "afterTxInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -147,7 +147,7 @@
         "ReceiverType": "*DB",
         "OnEnter": "beforeConnInstrumentation",
         "OnExit": "afterConnInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -155,7 +155,7 @@
         "ReceiverType": "*Conn",
         "OnEnter": "beforeConnPingContextInstrumentation",
         "OnExit": "afterConnPingContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -163,7 +163,7 @@
         "ReceiverType": "*Conn",
         "OnEnter": "beforeConnPrepareContextInstrumentation",
         "OnExit": "afterConnPrepareContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -171,7 +171,7 @@
         "ReceiverType": "*Conn",
         "OnEnter": "beforeConnExecContextInstrumentation",
         "OnExit": "afterConnExecContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -179,7 +179,7 @@
         "ReceiverType": "*Conn",
         "OnEnter": "beforeConnQueryContextInstrumentation",
         "OnExit": "afterConnQueryContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -187,7 +187,7 @@
         "ReceiverType": "*Conn",
         "OnEnter": "beforeConnTxInstrumentation",
         "OnExit": "afterConnTxInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -195,7 +195,7 @@
         "ReceiverType": "*Tx",
         "OnEnter": "beforeTxStmtContextInstrumentation",
         "OnExit": "afterTxStmtContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -203,7 +203,7 @@
         "ReceiverType": "*Tx",
         "OnEnter": "beforeTxPrepareContextInstrumentation",
         "OnExit": "afterTxPrepareContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -211,7 +211,7 @@
         "ReceiverType": "*Tx",
         "OnEnter": "beforeTxExecContextInstrumentation",
         "OnExit": "afterTxExecContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -219,7 +219,7 @@
         "ReceiverType": "*Tx",
         "OnEnter": "beforeTxQueryContextInstrumentation",
         "OnExit": "afterTxQueryContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -227,7 +227,7 @@
         "ReceiverType": "*Tx",
         "OnEnter": "beforeTxCommitInstrumentation",
         "OnExit": "afterTxCommitInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -235,7 +235,7 @@
         "ReceiverType": "*Tx",
         "OnEnter": "beforeTxRollbackInstrumentation",
         "OnExit": "afterTxRollbackInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -243,7 +243,7 @@
         "ReceiverType": "*Stmt",
         "OnEnter": "beforeStmtExecContextInstrumentation",
         "OnExit": "afterStmtExecContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "ImportPath": "database/sql",
@@ -251,14 +251,14 @@
         "ReceiverType": "*Stmt",
         "OnEnter": "beforeStmtQueryContextInstrumentation",
         "OnExit": "afterStmtQueryContextInstrumentation",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/databasesql"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/databasesql"
     },
     {
         "Version": "[4.0.0,4.12.1)",
         "ImportPath": "github.com/labstack/echo/v4",
         "Function": "New",
         "OnExit": "afterNewEcho",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/echo"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/echo"
     },
     {
         "Version": "[1.7.0,1.10.1)",
@@ -266,7 +266,7 @@
         "Function": "Next",
         "ReceiverType": "*Context",
         "OnEnter": "nextOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/gin"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/gin"
     },
     {
         "Version": "[1.7.0,1.10.1)",
@@ -274,27 +274,27 @@
         "Function": "HTML",
         "ReceiverType": "*Context",
         "OnEnter": "htmlOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/gin"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/gin"
     },
     {
         "ImportPath": "github.com/redis/go-redis/v9",
         "Function": "NewClient",
         "OnExit": "afterNewRedisClient",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredis"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredis"
     },
     {
         "Version": "[9.0.5,9.5.2)",
         "ImportPath": "github.com/redis/go-redis/v9",
         "Function": "NewFailoverClient",
         "OnExit": "afterNewFailOverRedisClient",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredis"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredis"
     },
     {
         "Version": "[9.0.5,9.5.2)",
         "ImportPath": "github.com/redis/go-redis/v9",
         "Function": "NewSentinelClient",
         "OnExit": "afterNewSentinelClient",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredis"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredis"
     },
     {
         "Version": "[9.0.5,9.5.2)",
@@ -302,56 +302,56 @@
         "Function": "Conn",
         "ReceiverType": "*Client",
         "OnExit": "afterClientConn",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredis"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredis"
     },
     {
         "Version": "[9.0.5,9.5.2)",
         "ImportPath": "github.com/redis/go-redis/v9",
         "Function": "NewClusterClient",
         "OnExit": "afterNewClusterClient",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredis"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredis"
     },
     {
         "Version": "[9.0.5,9.5.2)",
         "ImportPath": "github.com/redis/go-redis/v9",
         "Function": "NewRing",
         "OnExit": "afterNewRingClient",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredis"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredis"
     },
     {
         "Version": "[8.11.0,8.11.6)",
         "ImportPath": "github.com/go-redis/redis/v8",
         "Function": "NewClient",
         "OnExit": "afterNewRedisV8Client",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredisv8"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredisv8"
     },
     {
         "Version": "[8.11.0,8.11.6)",
         "ImportPath": "github.com/go-redis/redis/v8",
         "Function": "NewFailoverClient",
         "OnExit": "afterNewFailOverRedisV8Client",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredisv8"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredisv8"
     },
     {
         "Version": "[8.11.0,8.11.6)",
         "ImportPath": "github.com/go-redis/redis/v8",
         "Function": "newConn",
         "OnExit": "afterNewConnRedisV8Client",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredisv8"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredisv8"
     },
     {
         "Version": "[8.11.0,8.11.6)",
         "ImportPath": "github.com/go-redis/redis/v8",
         "Function": "NewClusterClient",
         "OnExit": "afterNewClusterV8Client",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredisv8"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredisv8"
     },
     {
         "Version": "[8.11.0,8.11.6)",
         "ImportPath": "github.com/go-redis/redis/v8",
         "Function": "NewRing",
         "OnExit": "afterNewRingV8Client",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goredisv8"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goredisv8"
     },
     {
         "Version": "[1.9.0,1.9.3)",
@@ -359,7 +359,7 @@
         "Function": "DialContext",
         "OnEnter": "onBeforeDialContext",
         "OnExit": "onExitDialContext",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/redigo"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/redigo"
     },
     {
         "ImportPath": "gorm.io/driver/mysql",
@@ -372,7 +372,7 @@
         "ImportPath": "gorm.io/gorm",
         "Function": "Open",
         "OnExit": "afterGormOpen",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/gorm"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/gorm"
     },
     {
         "ImportPath": "net/http",
@@ -380,7 +380,7 @@
         "ReceiverType": "*Transport",
         "OnEnter": "clientOnEnter",
         "OnExit": "clientOnExit",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/http"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/http"
     },
     {
         "ImportPath": "net/http",
@@ -388,79 +388,79 @@
         "ReceiverType": "serverHandler",
         "OnEnter": "serverOnEnter",
         "OnExit": "serverOnExit",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/http"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/http"
     },
     {
         "Version": "[1.5.0,1.9.4)",
         "ImportPath": "github.com/sirupsen/logrus",
         "Function": "SetFormatter",
         "OnExit": "logNewOnExit",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/logrus"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/logrus"
     },
     {
         "Version": "[1.11.1,1.15.2)",
         "ImportPath": "go.mongodb.org/mongo-driver/mongo",
         "Function": "NewClient",
         "OnEnter": "mongoOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/mongo"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/mongo"
     },
     {
         "Version": "[1.3.0,1.7.4)",
         "ImportPath": "github.com/gorilla/mux",
         "Function": "setCurrentRoute",
         "OnEnter": "muxRoute130OnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/mux"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/mux"
     },
     {
         "Version": "[1.7.4,1.8.2)",
         "ImportPath": "github.com/gorilla/mux",
         "Function": "requestWithRoute",
         "OnEnter": "muxRoute174OnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/mux"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/mux"
     },
     {
         "ImportPath": "go.opentelemetry.io/otel/sdk/trace",
         "FileName": "otel_trace_context_linker.go",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/otel-sdk"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/otel-sdk"
     },
     {
         "ImportPath": "go.opentelemetry.io/otel/sdk/trace",
         "FileName": "trace-context/otel_trace_context.go",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/otel-sdk"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/otel-sdk"
     },
     {
         "ImportPath": "go.opentelemetry.io/otel/sdk/trace",
         "FileName": "trace-context/span.go",
         "Replace": true,
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/otel-sdk"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/otel-sdk"
     },
     {
         "ImportPath": "go.opentelemetry.io/otel/sdk/trace",
         "FileName": "trace-context/tracer.go",
         "Replace": true,
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/otel-sdk"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/otel-sdk"
     },
     {
         "ImportPath": "go.opentelemetry.io/otel",
         "FileName": "trace-context/trace.go",
         "Replace": true,
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/otel-sdk"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/otel-sdk"
     },
     {
         "ImportPath": "go.opentelemetry.io/otel/baggage",
         "FileName": "otel_baggage_linker.go",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/otel-sdk"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/otel-sdk"
     },
     {
         "ImportPath": "go.opentelemetry.io/otel/baggage",
         "FileName": "otel_baggage_util.go",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/otel-sdk"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/otel-sdk"
     },
     {
         "ImportPath": "go.opentelemetry.io/otel/baggage",
         "FileName": "baggage/context.go",
         "Replace": true,
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/otel-sdk"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/otel-sdk"
     },
     {
         "Version": "[1.20.0,1.27.1)",
@@ -468,40 +468,40 @@
         "Function": "Write",
         "ReceiverType": "*CheckedEntry",
         "OnEnter": "zapLogWriteOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/zap"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/zap"
     },
     {
         "ImportPath": "google.golang.org/grpc",
         "Function": "DialContext",
         "OnEnter": "grpcClientOnEnter",
         "OnExit": "grpcClientOnExit",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/grpc"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/grpc"
     },
     {
         "ImportPath": "google.golang.org/grpc",
         "Function": "NewClient",
         "OnEnter": "grpcNewClientOnEnter",
         "OnExit": "grpcNewClientOnExit",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/grpc"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/grpc"
     },
     {
         "ImportPath": "google.golang.org/grpc",
         "Function": "NewServer",
         "OnEnter": "grpcServerOnEnter",
         "OnExit": "grpcServerOnExit",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/grpc"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/grpc"
     },
     {
         "ImportPath": "github.com/cloudwego/hertz/pkg/app/server",
         "Function": "New",
         "OnEnter": "beforeHertzServerBuild",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/hertz/server"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/hertz/server"
     },
     {
         "ImportPath": "github.com/cloudwego/hertz/pkg/app/client",
         "Function": "NewClient",
         "OnExit": "afterHertzClientBuild",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/hertz/client"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/hertz/client"
     },
     {
         "Version": "[1.45.0,1.57.1)",
@@ -510,7 +510,7 @@
         "ReceiverType": "*HostClient",
         "OnEnter": "clientFastHttpOnEnter",
         "OnExit": "clientFastHttpOnExit",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/fasthttp"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/fasthttp"
     },
     {
         "Version": "[1.45.0,1.57.1)",
@@ -518,34 +518,34 @@
         "Function": "ListenAndServe",
         "ReceiverType": "*Server",
         "OnEnter": "listenAndServeFastHttpOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/fasthttp"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/fasthttp"
     },
     {
         "ImportPath": "log",
         "Function": "output",
         "ReceiverType": "*Logger",
         "OnEnter": "goLogWriteOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/golog"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/golog"
     },
     {
         "ImportPath": "log/slog",
         "Function": "log",
         "ReceiverType": "*Logger",
         "OnEnter": "goSlogWriteOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/goslog"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/goslog"
     },
     {
         "Version": "[2.6.3,2.8.3)",
         "ImportPath": "github.com/go-kratos/kratos/v2/transport/http",
         "Function": "NewServer",
         "OnEnter": "KratosNewHTTPServiceOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/kratos/http"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/kratos/http"
     },
     {
         "Version": "[2.6.3,2.8.3)",
         "ImportPath": "github.com/go-kratos/kratos/v2/transport/grpc",
         "Function": "NewServer",
         "OnEnter": "KratosNewGRPCServiceOnEnter",
-        "Path": "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/kratos/grpc"
+        "Path": "github.com/antgan-0226/kotelbuild/pkg/rules/kratos/grpc"
     }
 ]

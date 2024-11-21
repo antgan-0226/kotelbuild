@@ -23,11 +23,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/version"
+	"github.com/antgan-0226/kotelbuild/test/verifier"
+	"github.com/antgan-0226/kotelbuild/test/version"
 
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/util"
+	"github.com/antgan-0226/kotelbuild/tool/shared"
+	"github.com/antgan-0226/kotelbuild/tool/util"
 )
 
 const (

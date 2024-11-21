@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier"
+	"github.com/antgan-0226/kotelbuild/test/verifier"
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"time"
 )

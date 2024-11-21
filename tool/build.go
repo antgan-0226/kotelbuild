@@ -15,9 +15,9 @@
 package tool
 
 import (
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/instrument"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/preprocess"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
+	"github.com/antgan-0226/kotelbuild/tool/instrument"
+	"github.com/antgan-0226/kotelbuild/tool/preprocess"
+	"github.com/antgan-0226/kotelbuild/tool/shared"
 )
 
 func Build() (err error) {

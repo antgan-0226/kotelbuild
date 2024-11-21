@@ -2,9 +2,9 @@ module world
 
 go 1.22
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation => ../../../opentelemetry-go-auto-instrumentation
+replace github.com/antgan-0226/kotelbuild => ../../../opentelemetry-go-auto-instrumentation
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verify => ../../../opentelemetry-go-auto-instrumentation/test/verify
+replace github.com/antgan-0226/kotelbuild/test/verify => ../../../opentelemetry-go-auto-instrumentation/test/verify
 
 require (
 	github.com/cloudwego/hertz v0.9.3

@@ -2,12 +2,12 @@ module grpc
 
 go 1.22.7
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier => ../../../opentelemetry-go-auto-instrumentation/test/verifier
+replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../kotelbuild/test/verifier
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation => ../../../opentelemetry-go-auto-instrumentation
+replace github.com/antgan-0226/kotelbuild => ../../../opentelemetry-go-auto-instrumentation
 
 require (
-	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-20241120080835-df6534803198
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241120080835-df6534803198
 	go.opentelemetry.io/otel/sdk v1.31.0
 	google.golang.org/grpc v1.66.2
 	google.golang.org/grpc/examples v0.0.0-20240925225118-218811eb43b1

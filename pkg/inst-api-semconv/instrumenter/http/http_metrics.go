@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/core/meter"
+	"github.com/antgan-0226/kotelbuild/pkg/core/meter"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
 	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
@@ -60,7 +60,7 @@ var httpMetricsConv = map[attribute.Key]bool{
 
 // InitHttpMetrics TODO: The init function may be executed after the HttpServerOperationListener() method
 // so we need to make sure the otel_setup is executed before all the init() function
-// related to issue https://github.com/antgan-0226/opentelemetry-go-auto-instrumentation/issues/48
+// related to issue https://github.com/antgan-0226/kotelbuild/issues/48
 func InitHttpMetrics(meter metric.Meter) {
 	var err error
 	httpServerOperationListener, err = newHttpServerMetric("net.http.server", meter)

@@ -2,12 +2,12 @@ module kratos/v2.5.2
 
 go 1.22
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier => ../../../../opentelemetry-go-auto-instrumentation/test/verifier
+replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../../kotelbuild/test/verifier
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation => ../../../../opentelemetry-go-auto-instrumentation
+replace github.com/antgan-0226/kotelbuild => ../../../../opentelemetry-go-auto-instrumentation
 
 require (
-	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-20241120080835-df6534803198
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241120080835-df6534803198
 	github.com/go-kratos/kratos/v2 v2.6.3
 	github.com/google/wire v0.6.0
 	go.opentelemetry.io/otel/sdk v1.31.0

@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/version"
+	"github.com/antgan-0226/kotelbuild/test/version"
 )
 
 type TestCase struct {

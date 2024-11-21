@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/inst-api/utils"
+	"github.com/antgan-0226/kotelbuild/pkg/inst-api/utils"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 	"go.opentelemetry.io/otel/trace/noop"

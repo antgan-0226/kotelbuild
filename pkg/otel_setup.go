@@ -21,9 +21,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/core/meter"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/inst-api-semconv/instrumenter/http"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier"
+	"github.com/antgan-0226/kotelbuild/pkg/core/meter"
+	"github.com/antgan-0226/kotelbuild/pkg/inst-api-semconv/instrumenter/http"
+	"github.com/antgan-0226/kotelbuild/test/verifier"
 	"go.opentelemetry.io/contrib/instrumentation/runtime"
 	"go.opentelemetry.io/otel"
 	_ "go.opentelemetry.io/otel"

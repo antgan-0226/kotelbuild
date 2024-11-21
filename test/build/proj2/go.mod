@@ -47,6 +47,6 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation => ../../../../opentelemetry-go-auto-instrumentation
+replace github.com/antgan-0226/kotelbuild => ../../../../opentelemetry-go-auto-instrumentation
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier => ../../../../opentelemetry-go-auto-instrumentation/test/verifier
+replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../../kotelbuild/test/verifier

@@ -16,7 +16,7 @@ package http
 
 import (
 	"context"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/inst-api-semconv/instrumenter/net"
+	"github.com/antgan-0226/kotelbuild/pkg/inst-api-semconv/instrumenter/net"
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
 	"go.opentelemetry.io/otel/trace"

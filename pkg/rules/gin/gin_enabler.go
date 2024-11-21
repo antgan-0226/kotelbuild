@@ -15,7 +15,7 @@
 package gin
 
 import (
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/inst-api/instrumenter"
+	"github.com/antgan-0226/kotelbuild/pkg/inst-api/instrumenter"
 )
 
 var ginEnabler = instrumenter.NewDefaultInstrumentEnabler()

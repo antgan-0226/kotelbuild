@@ -27,10 +27,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/resource"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/util"
+	"github.com/antgan-0226/kotelbuild/pkg"
+	"github.com/antgan-0226/kotelbuild/tool/resource"
+	"github.com/antgan-0226/kotelbuild/tool/shared"
+	"github.com/antgan-0226/kotelbuild/tool/util"
 	"golang.org/x/mod/modfile"
 )
 
@@ -53,9 +53,9 @@ const (
 	FuncMain         = "main"
 	FuncInit         = "init"
 	DryRunLog        = "dry_run.log"
-	StdRulesPrefix   = "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/"
-	StdRulesPath     = "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules"
-	ApiPath          = "github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/api"
+	StdRulesPrefix   = "github.com/antgan-0226/kotelbuild/pkg/"
+	StdRulesPath     = "github.com/antgan-0226/kotelbuild/pkg/rules"
+	ApiPath          = "github.com/antgan-0226/kotelbuild/pkg/api"
 )
 
 // @@ Change should sync with trampoline template
@@ -92,7 +92,7 @@ var fixedDeps = []struct {
 	{"go.opentelemetry.io/contrib/instrumentation/runtime",
 		"v0.56.0", false, false},
 	// otelbuild itself
-	// {"github.com/antgan-0226/opentelemetry-go-auto-instrumentation",
+	// {"github.com/antgan-0226/kotelbuild",
 	// "v0.3.0", false, true},
 }
 
@@ -536,7 +536,7 @@ func fetchDep(path string) error {
 // version, so we need to pin the version in go.mod. All used otel dependencies
 // should be listed and pinned here, because go mod tidy will fetch the latest
 // version even if we have pinned some of them.
-// Users will import github.com/antgan-0226/opentelemetry-go-auto-instrumentation
+// Users will import github.com/antgan-0226/kotelbuild
 // dependency while using otelbuild to use the inst-api and inst-semconv package
 // We also need to pin its version to let the users use the fixed version
 func (dp *DepProcessor) pinDepVersion() error {

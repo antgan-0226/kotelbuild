@@ -2,11 +2,11 @@ module golog
 
 go 1.22
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier => ../../../opentelemetry-go-auto-instrumentation/test/verifier
+replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../kotelbuild/test/verifier
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation => ../../../opentelemetry-go-auto-instrumentation
+replace github.com/antgan-0226/kotelbuild => ../../../opentelemetry-go-auto-instrumentation
 
-require github.com/antgan-0226/opentelemetry-go-auto-instrumentation v0.5.0
+require github.com/antgan-0226/kotelbuild v0.5.0
 
 require (
 	github.com/go-logr/logr v1.4.2 // indirect

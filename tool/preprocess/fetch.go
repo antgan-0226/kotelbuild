@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/shared"
-	"github.com/antgan-0226/opentelemetry-go-auto-instrumentation/tool/util"
+	"github.com/antgan-0226/kotelbuild/tool/shared"
+	"github.com/antgan-0226/kotelbuild/tool/util"
 )
 
 func runModDownload(path string) (string, error) {
@@ -70,7 +70,7 @@ func isStdRulePath(path string) bool {
 
 func (dp *DepProcessor) fetchEmbed(path string) (string, error) {
 	// Mangle the rule path to the local file system, e.g.
-	// github.com/antgan-0226/opentelemetry-go-auto-instrumentation/pkg/rules/foo@v1
+	// github.com/antgan-0226/kotelbuild/pkg/rules/foo@v1
 	// => rules/foo
 	path = strings.Replace(path, StdRulesPrefix, "", 1)
 	if strings.Contains(path, "@") {

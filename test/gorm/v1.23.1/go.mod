@@ -2,10 +2,10 @@ module gorm
 
 go 1.22
 
-replace github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier => ../../../../opentelemetry-go-auto-instrumentation/test/verifier
+replace github.com/antgan-0226/kotelbuild/test/verifier => ../../../../kotelbuild/test/verifier
 
 require (
-	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-20241120080835-df6534803198
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241120080835-df6534803198
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.31.0
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.31.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.31.0

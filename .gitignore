@@ -5,6 +5,7 @@
 **/vendor
 
 otel-go-auto-instrumentation
+kotelbuild
 otelbuild
 otelbuild-*
 *.log
