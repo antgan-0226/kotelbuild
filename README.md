@@ -5,6 +5,13 @@
 > kotelbuild项目来自于[OpenTelemetry](https://opentelemetry.io/)的开源项目[opentelemetry-go-auto-instrumentation](https://github.com/alibaba/opentelemetry-go-auto-instrumentation)修改而来。
 > 该项目是一个Go语言代码插桩工具，用于在编译时期即可自动插入代码。无需修改源代码。
 
+# 它能做什么？
+> [!IMPORTANT]
+> - 任意方法位置插入前后Hook方法，类似java的AOP
+> - 无侵入，平替任意方法的实现
+> - 任意结构体中，编译期间插入新字段定义
+> - 任意包中，编译期间插入新代码文件
+
 ## 修改内容
 - [x] 精简项目结构，仅保留核心能力，精简默认`default.json`规则
 - [x] 新增`-keepbuilddir`参数，允许用户决定是否保留中间文件，默认自动清理
@@ -159,3 +166,29 @@ $ .\main.exe
 [http hook]response header is  {"Content-Type":["application/x-gzip"],"Date":["Fri, 22 Nov 2024 03:46:22 GMT"],"Server":["bfe"]}
 ```
 
+# 原理
+
+> [!NOTE] 
+> 更多详情，请查看[原理文档](./docs/how-it-works.md)
+
+简单概括分为两个阶段：`preprocess`和`instrument`，都是在编译期前完成的。
+
+其中`preprocess`阶段主要是对源代码进行预处理，生成规则文件，`instrument`阶段是根据规则文件，对源代码进行插桩。
+
+![](./docs/workflow.png)
+
+生成的`TrampolineFunc`（跳板代码）和`HookFunc`（插桩代码），最终通过`compile`命令打包，原理如下：
+
+![](./docs/tjump.png)
+
+# Rule规则定义规范
+
+> 请查看[Rule规则定义](./docs/rule_def.md)
+
+# 如何添加新规则
+
+TODO 
+
+# 如何Debug调试插桩代码
+
+TODO 
